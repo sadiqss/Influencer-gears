@@ -214,3 +214,75 @@ footer p{
     margin-bottom: 50px;
 }
 /* footer style end */
+/* Media queries Responsive for mobile */
+@media only screen and (max-width:688px) {
+    #cart1{
+        display: ;
+    }
+    .menu{
+        display: none;
+    }
+    
+    .header-list{
+        text-align: center;
+    }
+    .start-info{
+        height: 222px;
+        width: 404px;
+        width: 100%;
+        text-align: center;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .main-camera img{
+        position: relative;
+        margin-top: 200px;
+        width: 202px;
+        height: 190px;
+    }
+    /* online logo */
+    .online-market{
+        width: 275.21px;
+        height: 280.46px;
+        border: 1px solid;
+        border-image: linear-gradient(
+            to left, white, 
+            black)50% 1;
+        margin-top: 100px;
+        margin-left:  auto;
+        margin-right: auto;
+    }
+    .online-market > ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+    }
+    /* Popular  items */
+    .popular-container{
+        width: 100%;
+        justify-content: center;
+    }
+    .gadgets{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        margin-top: 30px;
+        gap: 30px;
+    }
+    /* featured section start */
+    .featured-box{
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    margin-top: 3200px;
+    justify-content: center;
+    text-align: center;
+    }
+    /* footer starts */
+    footer{
+        margin-top: 220px;
+    }
+
+    
+}
