@@ -27,6 +27,8 @@ h3{
 header Style end
 ----------------- */
 /* main body style\ */
+
+/* section 1 */
 .container{
     margin-top: 50px;
     display: flex;
@@ -58,4 +60,29 @@ button{
 .main-camera img{
     width: 440px;
     height: 414px;
+}
+/* section 1 end */
+
+/* online market section */
+.online-market-container{
+    justify-content: center;
+}
+.online-market{
+    width: 1110px;
+    height: 110px;
+    border: 1px solid;
+    border-image: linear-gradient(
+        to left, white, 
+        black)50% 1;
+    margin-top: 100px;
+    margin-left:  auto;
+    margin-right: auto;
+}
+.logos>li{
+    display: block;
+    padding-top: 22px;
+}
+.online-market > ul{
+    display: flex;
+    justify-content: space-between;
 }
