@@ -46,13 +46,15 @@ header Style end
 .start-info>p{
     font-size: 16px;
 }
-button{
+.prebook{
     width: 196px;
     height: 44px;
     border-radius: 41px;
+    border: none;
     padding: 10px, 24px, 10px, 24px;
     background-color: #E02C6D;
     color: white;
+    font-size: 16px;
 }
 .arrow{
     margin-left: 10px;
@@ -156,7 +158,6 @@ color: gray;
 }
 .See-more{
     margin-top: 50px;
-    justify-content: right;
     float: right;
     font-size: 16px;
     font-weight: 700;
@@ -169,3 +170,23 @@ color: gray;
     margin-left: 8px;
 }
 /* popular items end */
+
+/* featured section start */
+.featured-box{
+    width: 1110px;
+    height: 270px;
+    display: flex;
+    margin: auto;
+    margin-top: 98px;
+}
+.featured-img{
+    margin-right: 96px;
+}
+.join-now{
+    width: 155px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: white;
+    font-size: 16px;
+    border:none ;
+}
