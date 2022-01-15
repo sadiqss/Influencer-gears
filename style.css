@@ -216,9 +216,6 @@ footer p{
 /* footer style end */
 /* Media queries Responsive for mobile */
 @media only screen and (max-width:688px) {
-    #cart1{
-        display: ;
-    }
     .menu{
         display: none;
     }
@@ -227,8 +224,6 @@ footer p{
         text-align: center;
     }
     .start-info{
-        height: 222px;
-        width: 404px;
         width: 100%;
         text-align: center;
     }
@@ -282,7 +277,85 @@ footer p{
     /* footer starts */
     footer{
         margin-top: 220px;
+    }  
+}
+/* Table device */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    /* header Style */
+h3{
+    font-size: 20px;
+}
+.header-list{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 18px;
+}
+.menu>ul>li{
+    display: block;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    color: black;   
+}
+.menu>ul{
+    display: flex;
+    gap: 15px;
+}
+    .start-info{
+        width: 100%;
+        text-align: center;
     }
-
-    
+    .container{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-camera img{
+        position: relative;
+        margin-top: 200px;
+        width: 300px;
+        height: 250px;
+    }
+     /* online logo */
+     .online-market{
+        width: 700px;
+        height: 280.46px;
+        border: 1px solid;
+        border-image: linear-gradient(
+            to left, white, 
+            black)50% 1;
+        margin-top: 300px;
+        margin-left:  auto;
+        margin-right: auto;
+    }
+    .online-market > ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+    }
+    /* logo ends */
+    /* popular items */
+    .gadgets{
+        width: 992px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 30px;
+        gap: 5px;
+    }    
+    /* popular items end */
+    .featured-box{
+        width: 992px;
+        width: 100%;
+        position: relative;
+        margin-top: 950px;
+        margin-left: 35px;
+        align-items: center;
+    }
+    .See-more{
+        margin-right: 85px;
+    }
 }
